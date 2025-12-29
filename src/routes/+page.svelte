@@ -5,24 +5,28 @@
 <div class="min-h-screen bg-white text-black font-sans px-6 py-8 md:px-10 md:py-10 selection:bg-gray-200">
 	<!-- Header -->
 	<header class="grid grid-cols-2 md:grid-cols-12 gap-y-4 text-[15px] leading-tight mb-32 md:mb-48 font-normal">
-		<div class="col-span-1 md:col-span-3">
-			Christopher Doyle & Co.
+		<div class="col-span-1 md:col-span-3 flex items-center gap-2">
+			<svg class="w-5 h-5 text-primary-600" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+				<rect x="4" y="4" width="11" height="11" rx="2" fill="currentColor" />
+				<rect x="9" y="9.5" width="10" height="10" rx="2" fill="currentColor" fill-opacity="0.24" />
+			</svg>
+			<span>Company</span>
 		</div>
 		
 		<div class="col-span-1 md:col-span-2 md:col-start-4">
-			<a href="#" class="hover:opacity-60 transition-opacity">Projects</a>
+			<a href="#services" class="hover:opacity-60 transition-opacity">Services</a>
 		</div>
 		
 		<div class="col-span-1 md:col-span-2 md:col-start-6">
-			<a href="#" class="hover:opacity-60 transition-opacity">Profile</a>
+			<a href="#approach" class="hover:opacity-60 transition-opacity">Approach</a>
 		</div>
 		
 		<div class="col-span-1 md:col-span-2 md:col-start-10 text-right md:text-left">
-			<button class="hover:opacity-60 transition-opacity cursor-pointer">Lights Off</button>
+			<a href="#clients" class="hover:opacity-60 transition-opacity">Clients</a>
 		</div>
 		
 		<div class="col-span-1 md:col-span-1 md:col-start-12 text-right">
-			<a href="#" class="hover:opacity-60 transition-opacity">Contact</a>
+			<a href="#contact" class="hover:opacity-60 transition-opacity">Contact</a>
 		</div>
 	</header>
 
@@ -30,113 +34,137 @@
 	<section class="grid grid-cols-1 md:grid-cols-12 mb-32 md:mb-48">
 		<div class="col-span-1 md:col-span-9 md:col-start-4 text-[28px] md:text-[32px] leading-[1.15] tracking-tight font-normal">
 			<p>
-				We are a team of independent, globally-recognised, idea-led creatives specialising in brand identity, creative direction, and digital design. We collaborate with leading creatives in a variety of fields to help transform companies, products, and brands.
+				We help companies formalize their brand through documented guidelines that ensure consistent communication across every touchpoint. From logo usage and color palettes to voice and tone frameworks, we create living systems that empower teams to build with clarity and confidence.
 			</p>
 		</div>
 	</section>
 
-	<!-- Projects -->
-	<section class="flex flex-col gap-24 md:gap-32 mb-32">
-		<!-- Project 1 -->
+	<!-- Services -->
+	<section id="services" class="flex flex-col gap-24 md:gap-32 mb-32">
+		<!-- Service 1 -->
 		<article class="grid grid-cols-1 md:grid-cols-12">
 			<div class="col-span-1 md:col-span-9 md:col-start-4 grid grid-cols-1 md:grid-cols-12 mb-3 text-[15px] gap-y-1 items-baseline">
 				<div class="col-span-1 md:col-span-4 font-normal">
-					Tsu Lange Yor
+					Brand Guidelines
 				</div>
 				<div class="col-span-1 md:col-span-8 text-gray-400 font-normal">
-					Brand identity, art direction, motion, and digital design for elevated homewares and fragrances.
+					Comprehensive documentation covering logo usage, color systems, typography, imagery principles, and application examples across all channels.
 				</div>
 			</div>
-			<div class="col-span-1 md:col-span-9 md:col-start-4 w-full aspect-[16/10] bg-gray-200 overflow-hidden relative group cursor-pointer">
+			<div class="col-span-1 md:col-span-9 md:col-start-4 w-full aspect-[16/10] bg-gray-100 overflow-hidden relative group cursor-pointer">
 				<img 
-					src="https://images.unsplash.com/photo-1615887023516-9b6c500c9c74?q=80&w=2500&auto=format&fit=crop&sat=-100" 
-					alt="Tsu Lange Yor Campaign" 
-					class="w-full h-full object-cover grayscale brightness-90 transition-transform duration-700 group-hover:scale-105"
+					src="/generated/image-marketing-team-reviewing-brand-guideline-1767034515536-0.webp" 
+					alt="Brand Guidelines Creation" 
+					class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
 				/>
-				<div class="absolute inset-0 flex items-center justify-center pointer-events-none">
-					<span class="text-white font-bold text-6xl md:text-8xl tracking-widest opacity-90">TSU LANGE YOR</span>
+				<div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent flex items-end justify-start p-8 pointer-events-none">
+					<span class="text-white font-normal text-3xl md:text-5xl tracking-tight">Brand Guidelines</span>
 				</div>
 			</div>
 		</article>
 
-		<!-- Project 2 -->
+		<!-- Service 2 -->
 		<article class="grid grid-cols-1 md:grid-cols-12">
 			<div class="col-span-1 md:col-span-9 md:col-start-4 grid grid-cols-1 md:grid-cols-12 mb-3 text-[15px] gap-y-1 items-baseline">
 				<div class="col-span-1 md:col-span-4 font-normal">
-					New Aim
+					Visual Identity Systems
 				</div>
 				<div class="col-span-1 md:col-span-8 text-gray-400 font-normal">
-					Brand identity, motion, and illustration for Australia's largest and fastest-growing ecommerce company.
+					Structured design systems with logo variations, color palettes, typography hierarchies, and templates for presentations, social, and digital assets.
 				</div>
 			</div>
-			<div class="col-span-1 md:col-span-9 md:col-start-4 w-full aspect-[16/10] bg-green-800 overflow-hidden relative group cursor-pointer">
+			<div class="col-span-1 md:col-span-9 md:col-start-4 w-full aspect-[16/10] bg-primary-50 overflow-hidden relative group cursor-pointer">
 				<img 
-					src="https://images.unsplash.com/photo-1556905055-8f358a7a47b2?q=80&w=2500&auto=format&fit=crop" 
-					alt="New Aim Hoodie" 
-					class="w-full h-full object-cover opacity-60 mix-blend-multiply bg-green-700 transition-transform duration-700 group-hover:scale-105"
+					src="/generated/image-designer-working-on-visual-identity-syst-1767034518161-1.webp" 
+					alt="Visual Identity Systems" 
+					class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
 				/>
-				<div class="absolute inset-0 flex items-center justify-center pointer-events-none overflow-hidden">
-					<span class="text-[#4ade80] font-bold text-[10rem] md:text-[14rem] -rotate-12 translate-y-10 tracking-tighter leading-none">newaim</span>
+				<div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent flex items-end justify-start p-8 pointer-events-none">
+					<span class="text-white font-normal text-3xl md:text-5xl tracking-tight">Visual Identity</span>
 				</div>
 			</div>
 		</article>
 
-		<!-- Project 3 -->
+		<!-- Service 3 -->
 		<article class="grid grid-cols-1 md:grid-cols-12">
 			<div class="col-span-1 md:col-span-9 md:col-start-4 grid grid-cols-1 md:grid-cols-12 mb-3 text-[15px] gap-y-1 items-baseline">
 				<div class="col-span-1 md:col-span-4 font-normal">
-					AirOxy
+					Voice & Tone Framework
 				</div>
 				<div class="col-span-1 md:col-span-8 text-gray-400 font-normal">
-					Brand identity, motion, and collateral for a new innovator in streamlined ecommerce solutions.
+					Explicit voice guidelines grounded in real customer scenarios, with messaging principles and copy examples for every channel and use case.
 				</div>
 			</div>
-			<div class="col-span-1 md:col-span-9 md:col-start-4 w-full aspect-[16/10] bg-[#2a6b8f] overflow-hidden relative group cursor-pointer">
+			<div class="col-span-1 md:col-span-9 md:col-start-4 w-full aspect-[16/10] bg-gray-100 overflow-hidden relative group cursor-pointer">
 				<img 
-					src="https://images.unsplash.com/photo-1597200381847-30ec200eeb9a?q=80&w=2500&auto=format&fit=crop" 
-					alt="AirOxy Sky" 
-					class="w-full h-full object-cover opacity-90 transition-transform duration-700 group-hover:scale-105"
+					src="/generated/image-content-team-collaborating-on-brand-voic-1767034520479-2.webp" 
+					alt="Voice & Tone Framework" 
+					class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
 				/>
-				<div class="absolute inset-0 flex items-center justify-center pointer-events-none">
-					<div class="flex items-center gap-4 text-white">
-						<div class="w-10 h-10 md:w-14 md:h-14 border-[5px] border-white rounded-t-full rounded-bl-full rotate-45"></div>
-						<span class="font-bold text-5xl md:text-7xl tracking-tighter">AIROXY<sup class="text-2xl md:text-3xl top-[-1.5em]">TM</sup></span>
-					</div>
+				<div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent flex items-end justify-start p-8 pointer-events-none">
+					<span class="text-white font-normal text-3xl md:text-5xl tracking-tight">Voice & Tone</span>
 				</div>
 			</div>
 		</article>
+	</section>
 
-		<div class="grid grid-cols-1 md:grid-cols-12 text-[15px]">
-			<div class="col-span-1 md:col-span-2 md:col-start-4">
-				<a href="#" class="hover:opacity-60 transition-opacity">More projects</a>
+	<!-- Approach -->
+	<section id="approach" class="grid grid-cols-1 md:grid-cols-12 mb-32 md:mb-48">
+		<div class="col-span-1 md:col-span-9 md:col-start-4">
+			<h2 class="text-[20px] md:text-[24px] font-normal mb-6 tracking-tight">Our Approach</h2>
+			<div class="text-[15px] leading-relaxed text-gray-600 space-y-4">
+				<p>
+					Every engagement begins with discovery—understanding your brand strategy, audience, and the specific challenges your teams face when creating content. We then draft comprehensive guidelines through an iterative process with marketing, product, and leadership stakeholders.
+				</p>
+				<p>
+					Deliverables are provided as living web-based systems or structured Figma libraries, ensuring designers, copywriters, and engineers can reference one source of truth. We extend guidelines into practical templates for presentations, social posts, landing pages, and email—so standards are applied to day-to-day outputs, not just documented in theory.
+				</p>
+			</div>
+		</div>
+	</section>
+
+	<!-- Clients -->
+	<section id="clients" class="grid grid-cols-1 md:grid-cols-12 mb-32 md:mb-48">
+		<div class="col-span-1 md:col-span-9 md:col-start-4">
+			<h2 class="text-[20px] md:text-[24px] font-normal mb-6 tracking-tight">Who We Work With</h2>
+			<div class="text-[15px] leading-relaxed text-gray-600 space-y-4">
+				<p>
+					We partner with startups and growth-stage companies that have outgrown ad hoc design and copy practices, as well as mature organizations undergoing repositioning or visual refreshes. Our clients typically need consistent branding but struggle to define clear guidelines for tone, visuals, and messaging across teams.
+				</p>
+				<p>
+					Success is measured by reduced revision cycles, improved internal clarity, and faster, more consistent asset production. We collaborate closely with internal creative, revenue, and product teams, and partner with freelancers or agencies for specialized design and development tasks.
+				</p>
 			</div>
 		</div>
 	</section>
 
 	<!-- Footer -->
-	<footer class="border-t border-gray-200 pt-6 md:pt-8 text-[13px] leading-relaxed text-gray-400 font-normal">
+	<footer id="contact" class="border-t border-gray-200 pt-6 md:pt-8 text-[13px] leading-relaxed text-gray-400 font-normal">
 		<div class="grid grid-cols-1 md:grid-cols-12 gap-y-8">
-			<div class="col-span-1 md:col-span-3">
-				&copy;Christopher Doyle & Co.
+			<div class="col-span-1 md:col-span-3 flex items-center gap-2">
+				<svg class="w-4 h-4 text-primary-600" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+					<rect x="4" y="4" width="11" height="11" rx="2" fill="currentColor" />
+					<rect x="9" y="9.5" width="10" height="10" rx="2" fill="currentColor" fill-opacity="0.24" />
+				</svg>
+				<span>&copy; Company</span>
 			</div>
 
 			<div class="col-span-1 md:col-span-2 md:col-start-4 flex flex-col gap-0.5">
-				<a href="#" class="hover:text-black transition-colors">Instagram</a>
-				<a href="#" class="hover:text-black transition-colors">Twitter</a>
 				<a href="#" class="hover:text-black transition-colors">LinkedIn</a>
+				<a href="#" class="hover:text-black transition-colors">Twitter</a>
+				<a href="mailto:hello@company.com" class="hover:text-black transition-colors">Email</a>
 			</div>
 
-			<div class="col-span-1 md:col-span-3 md:col-start-6">
-				<p>Suite 405/46 Kippax St.</p>
-				<p>Surry Hills</p>
-				<p>Sydney 2010</p>
+			<div class="col-span-1 md:col-span-4 md:col-start-6">
+				<p class="mb-2">Ready to formalize your brand?</p>
+				<a href="mailto:hello@company.com" class="text-black hover:text-primary-600 transition-colors font-normal">Get in touch →</a>
 			</div>
 		</div>
 
 		<div class="grid grid-cols-1 md:grid-cols-12 mt-12 md:mt-24">
 			<div class="col-span-1 md:col-span-6 md:col-start-4 text-gray-400">
 				<p>
-					We acknowledge Aboriginal & Torres Strait Islander peoples as the traditional custodians of country throughout Australia. Our studio sits on the lands of the Gadigal people of the Eora Nation and we pay our respects to their elders past, present, and emerging. Christopher Doyle & Co. is a proudly and intentionally inclusive company and supporter of the LGBTIQ+ community.
+					We work with companies at every stage—from startups defining their first brand guidelines to established organizations refreshing their visual and verbal identity. Our focus is on creating practical, living systems that reduce confusion and accelerate consistent communication across all teams and channels.
 				</p>
 			</div>
 		</div>
